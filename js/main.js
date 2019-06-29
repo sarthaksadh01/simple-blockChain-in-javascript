@@ -116,7 +116,7 @@ function mineAgain(index, blockChainVariable, newData, difficulty) {
 var blockchain = new BlockChain();
 showBlocks()
 var flag=0;
-function insertBlock() {
+function insertBlockButton() {
 
     var val = $("#valueofdata").val().trim()
     if (val != ""&&flag==0) {
