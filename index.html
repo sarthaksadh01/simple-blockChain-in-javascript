@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700"
+        rel="stylesheet">
+
+    <!--  CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+ 
+
+    <div class="mt-5 container text-center">
+            <h1 class="text-success">Simple implementation of Block Chain <br> <span class="text-muted">(javascript)</span></h1>
+        <div id="sadh" class="row"></div>
+    </div>
+
+
+
+
+
+    <div data-toggle="modal" data-target="#exampleModal" id="add"><i class="fa fa-plus"></i></div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add Block</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <textarea required id="valueofdata" placeholder="Data here" class="form-control"
+                        id="exampleFormControlTextarea1" rows="7"></textarea>
+                </div>
+                <div class="modal-footer">
+
+                    <button onclick="insertBlock()" id="savebutton" type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/sha26.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
