@@ -11,6 +11,10 @@
 5) ==> 1-3 mins
 6) ==> not tried
 
+#### live :-
+```https://simple-blockChain-in-javascript.surge.sh```
+
+
 ```
 MIT License
 
